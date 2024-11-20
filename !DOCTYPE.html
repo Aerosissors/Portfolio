@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Full-Screen Image Viewer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #000; /* Black background for contrast */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    img {
+      width: 100%; /* Make the image take up the full width */
+      height: 100vh; /* Full-screen height */
+      object-fit: cover; /* Ensures the image scales without distortion */
+    }
+  </style>
+</head>
+<body>
+  <img src="Home.png" alt="Image 1">
+  <img src="About Us.png" alt="Image 2">
+  <img src="Services.png" alt="Image 3">
+  <img src="Gallery.png" alt="Image 4">
+</body>
+</html>
